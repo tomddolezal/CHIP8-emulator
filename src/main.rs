@@ -1,6 +1,7 @@
 use std::env;
 use std::fs;
 use std::path::PathBuf;
+use std::io::Read;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
